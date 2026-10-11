@@ -1,0 +1,3 @@
+[submodule "researchOps-hackpack"]
+	path = researchOps-hackpack
+	url = https://github.com/jcklpe/researchOps-hackpack.git
