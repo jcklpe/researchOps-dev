@@ -3,6 +3,9 @@
 **/.DS_Store
 Thumbs.db
 
+# Local reference sources; deliberately excluded from version control.
+/reference-material/
+
 # Local agent/editor state
 .claude/
 .codex/
