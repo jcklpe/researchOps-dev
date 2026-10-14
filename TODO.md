@@ -1,9 +1,12 @@
 # Development Index
 ## Current State
-The maintainer repository contains the HackPack as a pinned submodule and has the public origin https://github.com/jcklpe/researchOps-dev. As of 2026-10-13, the first product slice is implemented and locally verified. Aslan authorized local commits and will push, then test the exact published README setup prompt. Push the consumer commit before the outer repository's updated pin. Human QA and spike closure remain pending.
+The maintainer repository contains the HackPack as a pinned submodule and has the public origin https://github.com/jcklpe/researchOps-dev. As of 2026-10-13, the first product slice is implemented and locally verified. Aslan subsequently reported testing the entry path: it worked “kind of okay,” with much more work remaining. Test details and specific friction have not yet been captured. The spike stays active; closure and full acceptance are not established.
 
 ## Active Spikes
-- **Portable runbooks and mechanical setup** — [concept and scope](docs/active-spikes/portable-runbooks-and-setup.md) · [work list and human QA](docs/active-spikes/portable-runbooks-and-setup.todo.md). Implemented project → trial → artifacts, flat templates, three fictional method examples, portable runbooks with GitHub adapters, four mechanical skills, and the revised README. Awaiting the published fresh-agent walkthrough; the spike is still active.
+- **Portable runbooks and mechanical setup** — [concept and scope](docs/active-spikes/portable-runbooks-and-setup.md) · [work list and human QA](docs/active-spikes/portable-runbooks-and-setup.todo.md). Implemented project → trial → artifacts, flat templates, three fictional method examples, portable runbooks with GitHub adapters, four mechanical skills, and the revised README. An initial user test is reported, with qualified feedback; detailed follow-up and the remaining QA criteria stay open.
+
+## Context for Resuming
+Aslan requested a detailed end-of-evening capture on 2026-10-13. Start with [the resume context](docs/scratch/researchops-resume-context.md), which links the authorship, methods/evidence, agent/tooling, and competitive-analysis scratch notes. They preserve discussion and later possibilities without starting new implementation work. Fuller private sources remain ignored.
 
 ## Later Work
 These clusters are retained in the [active spike's scope discussion](docs/active-spikes/portable-runbooks-and-setup.md#later-work-clusters), not started as separate spikes:

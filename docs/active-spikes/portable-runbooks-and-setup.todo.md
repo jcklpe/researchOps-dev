@@ -7,15 +7,17 @@ reviewed: 2026-10-13
 See the [conceptual document](portable-runbooks-and-setup.md) for the agreed scope, design reasoning, and later clusters. Consumer implementation lives in `researchOps-hackpack/`.
 
 ## Current State
-Aslan explicitly authorized implementation and local commits on 2026-10-13. The agreed slice is implemented and locally checked: project-first structure, flat templates, portable runbooks with GitHub adapters, three fictional method examples, four mechanical skills, and README entry paths. He will push the consumer repository first, then the maintainer repository that pins it, and test the published README prompt. The spike remains active until that QA and any resulting corrections are addressed; this is not a close-out.
+Aslan explicitly authorized implementation and local commits on 2026-10-13. The agreed slice is implemented and locally checked: project-first structure, flat templates, portable runbooks with GitHub adapters, three fictional method examples, four mechanical skills, and README entry paths. He subsequently reported a test that worked “kind of okay” and said there is much more to do. Its exact steps, results, and friction have not been supplied. The spike remains active for that follow-up; this is not a close-out or full acceptance.
 
 Private source notes remain in the ignored `reference-material/` folder. No private source package, generated study, or separate demo distribution is included in this implementation.
 
 ## To Do
-- Respond to the fresh-agent test results within this scope. Discuss any broader feature request separately.
+- On resumption, capture what Aslan actually tested and what “kind of okay” meant, then address evidenced friction within this scope. Do not invent failures or require further discussion tonight. Discuss broader feature requests separately.
 
 ## Ready for Human QA
-- [ ] Walk through the fresh-clone human and agent paths, verify file outputs and links, and check that task relationships and review handoffs survived the port. Local file-copy checks passed; the independent agent run against the published repository remains pending.
+Initial feedback on 2026-10-13: Aslan tried it and found it worked “kind of okay.” The boxes below remain open because the report does not specify which steps or conditions were exercised. They are follow-up criteria, not a claim that no test happened.
+
+- [ ] Walk through the fresh-clone human and agent paths, verify file outputs and links, and check that task relationships and review handoffs survived the port. Local file-copy checks passed. Aslan has now reported an initial test, but its coverage and results against these criteria remain unrecorded.
 - [ ] After pushing, copy the exact README setup prompt into a fresh agent and choose a new temporary destination. Verify that it clones the consumer repository, reads the local instructions, asks for a working location, and stops without creating a project/trial or inventing research content.
 - [ ] Request a project, each chosen trial method, and an interview/user-test session separately. Check the files remain blank, links work, and existing-target/repeated requests prompt for a choice rather than overwriting work.
 - [ ] Browse README, the three worked trials, and GitHub issue forms after publication. Confirm the copy, GitHub rendering, and practical sequence are useful for the walkthrough. Creating public issues is not required for this check.
@@ -29,6 +31,7 @@ Private source notes remain in the ignored `reference-material/` folder. No priv
 - Reviewed the portable workflow and adapters for task grouping, owners, review/revision handoffs, and session versus survey branches. Git whitespace checks passed. The final pre-commit scope check excludes ignored reference material and unrelated files.
 
 ## Done
+- [x] Preserve extensive context from the conversation at Aslan's end-of-evening request. Saved five linked thematic/resume scratch notes, a fuller private reconstruction, and three verbatim private source snapshots on 2026-10-13. Updated the active state to reflect qualified user testing; no consumer implementation or spike closure occurred in this capture.
 - [x] Agree on placement and file boundaries for portable runbooks and task instructions, considering `templates/runbooks/`, and their relationship to the retained GitHub examples. Outcome, 2026-10-13: Agreed and implemented: flat documents, portable runbooks under templates, and eight GitHub adapters.
 - [x] Define the mechanical setup contract: required workspace-level inputs, prepared files, naming/link substitutions, and behavior around existing work. Setup does not create a project or trial. Outcome, 2026-10-13: Implemented the workspace-only contract, chosen location, and collision handling instructions.
 - [x] Refine `setup-research-repo`, including its boundary with cloning, what remains to prepare after cloning, and the instructions an agent reads first. Define the separate project/trial creation skills and agree on the walkthrough sequence. A product-creation skill is no longer part of the proposal. Outcome, 2026-10-13: Implemented four separate skills; README cloning precedes workspace setup. No product skill exists.
