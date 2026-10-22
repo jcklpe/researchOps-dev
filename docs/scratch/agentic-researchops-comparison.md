@@ -2,7 +2,7 @@
 ## Status and Source Limits
 Captured 2026-10-13 from this conversation. This is a guide for resuming comparative work, not a new competitive-research pass. Existing source inspections were recorded on October 8 and October 11. Products and repositories may have changed; re-check the relevant primary files or documentation before relying on their capabilities in a new decision.
 
-A verbatim [private snapshot of the previous companion analysis](../../reference-material/competitive-analysis-snapshot-2026-10-13.md) is available locally. It will not be present in a public clone. The earlier conversation itself includes strong chatbot claims later qualified by Aslan; preserve those qualifications rather than extracting only persuasive-looking differentiators.
+A verbatim [private snapshot of the previous companion analysis; `references/competitive-analysis-snapshot-2026-10-13.md`](../../AGENTS.md#external-reference-locations) is available locally. It will not be present in a public clone. The earlier conversation itself includes strong chatbot claims later qualified by Aslan; preserve those qualifications rather than extracting only persuasive-looking differentiators.
 
 ## What Aslan Wants the Comparison to Answer
 The question is not just “Why not use an existing tool?” Aslan wants to build, customize, learn, and receive credit, while avoiding thoughtless duplication and making his version worth using. Maintenance burden was not the central concern. He also wants to see where the comparison could help him build something better, without treating that aspiration as an achieved result.

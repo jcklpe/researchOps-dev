@@ -67,3 +67,6 @@ secrets/*
 !**/secrets/.gitignore
 !**/secrets/*.example
 !**/secrets/*.example.*
+
+# Local paths only; actual context/reference locations are not public configuration.
+/.reference-paths.local.json

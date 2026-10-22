@@ -34,3 +34,12 @@ Keep credentials, secrets, and local agent state out of Git. Check that any rese
 Do not hard-wrap prose. Preserve paragraph boundaries and avoid reflow-only diffs. Prefer compact heading spacing in hand-authored files unless project tooling requires otherwise.
 
 `CLAUDE.md` links to this file so the same instructions apply to both agents.
+
+## External Reference Locations
+Optional private context and reference assets live outside this public repository. Discover them through `.reference-paths.local.json` at the repository root, a gitignored JSON object mapping descriptive keys to file/directory paths. `context` identifies the external context/index; `references` identifies the reference-source root. Additional descriptive keys may identify other external locations. Use `.reference-paths.example.json` only as a generic example; actual paths belong in the local file.
+
+Parse the file strictly as JSON data, resolve relative values from the configuration's directory, and read only locations needed for the current task. Never source/execute it or load unrelated credential-bearing `.env` files. If it is missing or a required path is inaccessible, report that specific gap and continue work that does not depend on the missing context. Pointers do not grant access or permission.
+
+Keep private sources outside the tracked tree rather than creating nested ignored reference-material copies. Gitignore is not access control and does not untrack files or erase history. Select public-safe reasoning deliberately; private source availability does not authorize copying it into public docs or shared artifacts.
+
+Historical `reference-material/` path mentions refer to the external `references` root. Current project work and spike docs remain in this repository; external context supports them without creating a parallel implementation spike.

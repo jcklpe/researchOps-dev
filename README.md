@@ -18,3 +18,6 @@ The public GitHub repository is [jcklpe/researchOps-dev](https://github.com/jckl
 
 ## License
 This maintainer repository is licensed under the GNU Affero General Public License, version 3 (`AGPL-3.0-only`). See [LICENSE](LICENSE). The HackPack submodule is a separate repository; this license notice applies to the maintainer repository.
+
+## Optional External Context
+Read [External Reference Locations](AGENTS.md#external-reference-locations) for local paths-only configuration and missing-context behavior. Project work and its spike records stay in this repository; external context and reference sources retain their own purpose and authority.

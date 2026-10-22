@@ -127,7 +127,7 @@ These are deferred discussion areas, not active spikes or implementation commitm
 | Research evidence and provenance | Preservation of originals, recordings, transcripts, and relationships to later interpretations; artifact naming and storage. | Keep the existing [pinned storage question](../pinned-issues.md) visible without redesigning storage during setup work. |
 
 ## Reference Material
-The [earlier methods exploration](../../reference-material/researchops-hackpack-methods-spike.md) is optional local context in the Git-ignored `reference-material/` folder and will be absent from a public clone. It contains mixed human discussion and agent proposals, not an adopted specification. The reasoning needed for this spike is recorded above; following that reference is not required to implement an agreed requirement.
+The [earlier methods exploration; `references/researchops-hackpack-methods-spike.md`](../../AGENTS.md#external-reference-locations) is optional external context resolved through the local paths-only configuration and is absent from a public clone. It contains mixed human discussion and agent proposals, not an adopted specification. The reasoning needed for this spike is recorded above; following that reference is not required to implement an agreed requirement.
 
 Aslan permits use of his unfinished UX Epistemology writing in this project. If later work needs a copy, select and place it deliberately rather than exposing unrelated workspace links. This spike has not copied that article or promoted the older exploration wholesale.
 
