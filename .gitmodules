@@ -1,3 +1,7 @@
 [submodule "researchOps-hackpack"]
 	path = researchOps-hackpack
 	url = https://github.com/jcklpe/researchOps-hackpack.git
+[submodule "project-workflows"]
+	path = project-workflows
+	url = https://github.com/jcklpe/project-workflows.git
+	branch = project/researchops-dev

@@ -3,6 +3,7 @@
 The maintainer repository contains the HackPack as a pinned submodule and has the public origin https://github.com/jcklpe/researchOps-dev. As of 2026-10-13, the first product slice is implemented and locally verified. Aslan subsequently reported testing the entry path: it worked “kind of okay,” with much more work remaining. Test details and specific friction have not yet been captured. The spike stays active; closure and full acceptance are not established.
 
 ## Active Spikes
+- **Project Workflows adoption** — [reconciliation](docs/active-spikes/project-workflows-adoption.md) · [local validation and publication hold](docs/active-spikes/project-workflows-adoption.todo.md).
 - **Portable runbooks and mechanical setup** — [concept and scope](docs/active-spikes/portable-runbooks-and-setup.md) · [work list and human QA](docs/active-spikes/portable-runbooks-and-setup.todo.md). Implemented project → trial → artifacts, flat templates, three fictional method examples, portable runbooks with GitHub adapters, four mechanical skills, and the revised README. An initial user test is reported, with qualified feedback; detailed follow-up and the remaining QA criteria stay open.
 
 ## Context for Resuming

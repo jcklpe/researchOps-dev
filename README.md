@@ -12,7 +12,7 @@ The intended users are individuals and teams organizing product, UX, and service
 The maintainer wants to develop an authored toolkit and learn through building it. Competitive analysis should inform substantive choices rather than establish uniqueness by assertion. Researcher purpose and judgment remain central. The first slice now supplies project/trial/artifact organization, interview/survey/user-testing examples, portable runbooks, and mechanical agent setup. Its [active spike](docs/active-spikes/portable-runbooks-and-setup.md) retains the reasoning and pending human QA. Broader methodological content, further agent assistance, and integrations remain open.
 
 ## Development Documentation
-The maintainer workflows are included under `skills/`; see `AGENTS.md` for when to use each. Use conceptual and to-do document pairs under `docs/active-spikes/` for bounded development work; `TODO.md` is the short index. Keep rough ideas in `docs/scratch/`, current policies in `docs/policies/`, and completed development history in `docs/archive/`.
+The maintainer workflows are adopted under `project-workflows/`; see `AGENTS.md` for local authority. Use conceptual and to-do document pairs under `docs/active-spikes/` for bounded development work; `TODO.md` is the short index. Keep rough ideas in `docs/scratch/`, current policies in `docs/policies/`, and completed development history in `docs/archive/`.
 
 The public GitHub repository is [jcklpe/researchOps-dev](https://github.com/jcklpe/researchOps-dev), configured as `origin`.
 
@@ -21,3 +21,6 @@ This maintainer repository is licensed under the GNU Affero General Public Licen
 
 ## Optional External Context
 Read [External Reference Locations](AGENTS.md#external-reference-locations) for local paths-only configuration and missing-context behavior. Project work and its spike records stay in this repository; external context and reference sources retain their own purpose and authority.
+
+## Project Workflows adoption
+The complete collection lives in `project-workflows/` on `project/researchops-dev`; the parent pins its exact commit. Use its [update procedure](project-workflows/update-project-workflows/SKILL.md) for reconciliation, with project rules in [AGENTS.md](AGENTS.md). After the required commit is published, initialize a fresh clone with `git submodule update --init project-workflows`. This adoption is local only pending security/privacy review: the recorded public URL does not yet make the new pin available to collaborators. [Reconciliation and validation](docs/active-spikes/project-workflows-adoption.md) · [remaining steps](docs/active-spikes/project-workflows-adoption.todo.md).

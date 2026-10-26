@@ -12,13 +12,11 @@ Use `TODO.md` as the index. Bounded development work uses a conceptual document 
 Human researchers author inquiry. Agents can help articulate, challenge, retrieve, organize, and execute work in service of that inquiry. Agent-generated documents do not by themselves demonstrate research progress. The exact product approach remains open.
 
 ## Repo-Local Skills
-Prefer `skills/<skill-name>/SKILL.md` over a similarly named global skill. These local copies govern the maintainer workflow and may evolve with the project; global skills are fallback material. Load the relevant skill from its explicit path when needed.
+This repository adopts [Project Workflows](project-workflows/README.md) as a pinned Git submodule. Read [workflow.toml](project-workflows/workflow.toml), then load `project-workflows/<skill-name>/SKILL.md` before global workflow seeds. The child branch is `project/researchops-dev`; the parent branch is separate. Project instructions and existing document conventions remain authoritative. Actual project documents stay here, outside the collection.
 
-- `run-project-spike`: scoped development work, conceptual/to-do pairs, continuation, and archival.
-- `commit-work`: authorized local checkpoints and their scope.
-- `triage-project-misc`: route loose development observations.
-- `pin-issue`: preserve unresolved questions with a revisit condition.
-- `log-future-idea`: record future infrastructure, tooling, or development-workflow ideas; research questions and other domain content belong in their relevant project context.
+The complete collection provides run-project-spike, commit-work, triage-project-misc, capture-for-later, draft-approval-slate, setup-project-workflows, and update-project-workflows.
+
+Use `capture-for-later` for new saved possibilities or parked subjects as small individual notes in `docs/scratch/`. Existing `docs/pinned-issues.md` and `docs/scratch/future-ideas.md` records remain valid and stay in place; update a related existing entry rather than duplicating or bulk migrating it. Capturing a subject does not create tasks or authorize external writes.
 
 Honor requested review periods: when the maintainer asks to review before committing, leave changes uncommitted until that review ends or a checkpoint is explicitly requested. Do not push without authorization.
 
