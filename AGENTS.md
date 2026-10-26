@@ -16,7 +16,7 @@ This repository adopts [Project Workflows](project-workflows/README.md) as a pin
 
 The complete collection provides run-project-spike, commit-work, triage-project-misc, capture-for-later, draft-approval-slate, setup-project-workflows, and update-project-workflows.
 
-Use `capture-for-later` for new saved possibilities or parked subjects as small individual notes in `docs/scratch/`. Existing `docs/pinned-issues.md` and `docs/scratch/future-ideas.md` records remain valid and stay in place; update a related existing entry rather than duplicating or bulk migrating it. Capturing a subject does not create tasks or authorize external writes.
+Use `capture-for-later` for saved possibilities or parked subjects as small individual notes in `docs/scratch/`. Update an existing subject note rather than duplicating it. Capturing a subject does not create tasks or authorize external writes.
 
 Honor requested review periods: when the maintainer asks to review before committing, leave changes uncommitted until that review ends or a checkpoint is explicitly requested. Do not push without authorization.
 

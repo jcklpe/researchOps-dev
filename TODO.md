@@ -14,7 +14,7 @@ These clusters are retained in the [active spike's scope discussion](docs/active
 - Research framework and template content: UX Epistemology, methods rigor, terminology, and possible structural changes.
 - Further agent assistance: human authorship, boundaries of delegation, and competitive analysis of actual workflows and toolkit architecture.
 - Optional integrations and tools: tracker/document destinations and possible MCP dependencies.
-- Evidence and provenance: original materials, traceability, and the [pinned artifact-storage question](docs/pinned-issues.md).
+- Evidence and provenance: original materials, traceability, and the [pinned artifact-storage question](docs/scratch/research-artifact-naming-and-ignore-rules.md).
 
 ## Completed Setup
 - Established the outer maintainer repository and registered the existing consumer template as a pinned submodule.

@@ -59,4 +59,4 @@ The project/trial briefs, three plan templates, report, field notes, and artifac
 
 A data-visualization reference section was also parked in the earlier exploration. Its scope and connection to the initial setup remain open. Do not add visualization tooling or a new reference taxonomy just because the note exists.
 
-A methods spike should select a bounded question with Aslan, inspect the relevant source and current template, and identify what behavior would improve. It should not rewrite the whole toolkit from the older exploratory architecture. The [artifact-storage pin](../pinned-issues.md) remains available for the broader storage/provenance questions.
+A methods spike should select a bounded question with Aslan, inspect the relevant source and current template, and identify what behavior would improve. It should not rewrite the whole toolkit from the older exploratory architecture. The [artifact-storage pin](research-artifact-naming-and-ignore-rules.md) remains available for the broader storage/provenance questions.
