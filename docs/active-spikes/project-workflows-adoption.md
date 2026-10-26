@@ -16,3 +16,6 @@ This is local only. The public source URL is recorded for later reviewed publica
 
 ## Authorized legacy-list migration
 On 2026-10-26, the separately authorized capture-for-later migration moved the one remaining artifact-storage question to [its individual parked note](../scratch/research-artifact-naming-and-ignore-rules.md), preserved the rationale/revisit condition, and repaired three incoming links. Current artifact folders already resolve the narrow naming question; broader provenance and execution-record storage remains deferred, not newly scheduled.
+
+## Shared rollout follow-up
+Reconciled shared main `8f6bdcf` locally, preserving this project's adaptation. The follow-up clarifies separately authorized list migration, incomplete parent scaffolds, and private local recovery. Publication remains on hold; the public source URL does not make this new child pin available remotely.
