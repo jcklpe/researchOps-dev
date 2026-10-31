@@ -14,11 +14,13 @@ Human researchers author inquiry. Agents can help articulate, challenge, retriev
 ## Repo-Local Skills
 This repository adopts [Project Workflows](project-workflows/README.md) as a pinned Git submodule. Read [workflow.toml](project-workflows/workflow.toml), then load `project-workflows/<skill-name>/SKILL.md` before global workflow seeds. The child branch is `project/researchops-dev`; the parent branch is separate. Project instructions and existing document conventions remain authoritative. Actual project documents stay here, outside the collection.
 
-The complete collection provides run-project-spike, commit-work, triage-project-misc, capture-for-later, draft-approval-slate, setup-project-workflows, and update-project-workflows.
+The complete collection provides run-project-spike, coordinate-project-contribution, commit-work, triage-project-misc, capture-for-later, draft-approval-slate, setup-project-workflows, and update-project-workflows.
 
 Use `capture-for-later` for saved possibilities or parked subjects as small individual notes in `docs/scratch/`. Update an existing subject note rather than duplicating it. Capturing a subject does not create tasks or authorize external writes.
 
 Honor requested review periods: when the maintainer asks to review before committing, leave changes uncommitted until that review ends or a checkpoint is explicitly requested. Do not push without authorization.
+
+Use [Coordinate Project Contribution](project-workflows/coordinate-project-contribution/SKILL.md) to start contribution and review work under this project’s existing human direction. Each agent keeps its own spike; a branch may carry several spikes/issues and later reviews. Existing privacy, validation and publication rules remain authoritative.
 
 ## Validation and Commits
 Validate documentation links and Git boundaries after structural changes. Run checks appropriate to any implementation changes. Commit authorized, completed project work locally at a verified completion boundary. Use the commit-work skill when available, explicit paths, and no co-author trailers. Never push or create a remote without authorization.
