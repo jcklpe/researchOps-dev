@@ -12,7 +12,7 @@ The intended users are individuals and teams organizing product, UX, and service
 The maintainer wants to develop an authored toolkit and learn through building it. Competitive analysis should inform substantive choices rather than establish uniqueness by assertion. Researcher purpose and judgment remain central. The first slice now supplies project/trial/artifact organization, interview/survey/user-testing examples, portable runbooks, and mechanical agent setup. Its [active spike](docs/active-spikes/portable-runbooks-and-setup.md) retains the reasoning and pending human QA. Broader methodological content, further agent assistance, and integrations remain open.
 
 ## Development Documentation
-The maintainer workflows are adopted under `project-workflows/`; see `AGENTS.md` for local authority. Use conceptual and to-do document pairs under `docs/active-spikes/` for bounded development work; `TODO.md` is the short index. Keep rough ideas in `docs/scratch/`, current policies in `docs/policies/`, and completed development history in `docs/archive/`.
+The maintainer workflows are adopted under `project-workflows/`; see `AGENTS.md` for local authority. Use conceptual and to-do document pairs under `docs/active-spikes/` for bounded development work; `TODO.md` is the short index. Keep rough ideas in `docs/scratch/`, current agent obligations in `docs/agent-policies/`, and completed development history in `docs/archive/`.
 
 The public GitHub repository is [jcklpe/researchOps-dev](https://github.com/jcklpe/researchOps-dev), configured as `origin`.
 

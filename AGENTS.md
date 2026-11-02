@@ -7,9 +7,11 @@ This is the ResearchOps HackPack maintainer repository, an independently version
 Keep project documentation usable after cloning, without dependencies on machine-specific paths or private external workspaces.
 
 ## Development Workflow
-Use `TODO.md` as the index. Bounded development work uses a conceptual document and a `.todo.md` companion in `docs/active-spikes/`. Rough exploration belongs in `docs/scratch/`; current policies in `docs/policies/`; completed or superseded spike history in `docs/archive/`. Policies describe the current approach, including rules, defaults, procedures, and useful rationale. Revise them directly; Git holds their history. Use applicable project-workflow skills when available. Do not adopt exploratory agent suggestions as requirements.
+Use `TODO.md` as the index. Bounded development work uses a conceptual document and a `.todo.md` companion in `docs/active-spikes/`. Rough exploration belongs in `docs/scratch/`; current agent obligations in `docs/agent-policies/`; completed or superseded spike history in `docs/archive/`. Policies describe the current approach, including rules, defaults, procedures, and useful rationale. Revise them directly; Git holds their history. Use applicable project-workflow skills when available. Do not adopt exploratory agent suggestions as requirements.
 
 Human researchers author inquiry. Agents can help articulate, challenge, retrieve, organize, and execute work in service of that inquiry. Agent-generated documents do not by themselves demonstrate research progress. The exact product approach remains open.
+
+Read the project-owned [agent policy index](docs/agent-policies/policy.index.md) and load applicable adopted policies with their complete prerequisite closure. Policy status and scope determine applicability; package availability and loading order confer no adoption or precedence. Use the selected Project Workflows policy-management skills for policy work. Existing project instructions, research authorship, review holds, privacy boundaries and publication restrictions remain applicable.
 
 ## Repo-Local Skills
 This repository adopts [Project Workflows](project-workflows/README.md) as a pinned Git submodule. Read [workflow.toml](project-workflows/workflow.toml), then load `project-workflows/<skill-name>/SKILL.md` before global workflow seeds. The child branch is `project/researchops-dev`; the parent branch is separate. Project instructions and existing document conventions remain authoritative. Actual project documents stay here, outside the collection.

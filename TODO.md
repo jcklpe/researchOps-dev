@@ -3,6 +3,7 @@
 The maintainer repository contains the HackPack as a pinned submodule and has the public origin https://github.com/jcklpe/researchOps-dev. As of 2026-10-13, the first product slice is implemented and locally verified. Aslan subsequently reported testing the entry path: it worked “kind of okay,” with much more work remaining. Test details and specific friction have not yet been captured. The spike stays active; closure and full acceptance are not established.
 
 ## Active Spikes
+- **Agent policy migration** — [bounded handoff](docs/active-spikes/agent-policy-migration.md) · [tasks](docs/active-spikes/agent-policy-migration.todo.md). D1–D4 approved; migration applied with four adopted policies and preserved legacy content. Verification and local checkpoint evidence are in the task pair; ordinary client-use QA remains separate.
 - **Project Workflows adoption** — [reconciliation](docs/active-spikes/project-workflows-adoption.md) · [local validation and publication hold](docs/active-spikes/project-workflows-adoption.todo.md).
 - **Portable runbooks and mechanical setup** — [concept and scope](docs/active-spikes/portable-runbooks-and-setup.md) · [work list and human QA](docs/active-spikes/portable-runbooks-and-setup.todo.md). Implemented project → trial → artifacts, flat templates, three fictional method examples, portable runbooks with GitHub adapters, four mechanical skills, and the revised README. An initial user test is reported, with qualified feedback; detailed follow-up and the remaining QA criteria stay open.
 
@@ -18,6 +19,6 @@ These clusters are retained in the [active spike's scope discussion](docs/active
 
 ## Completed Setup
 - Established the outer maintainer repository and registered the existing consumer template as a pinned submodule.
-- Separated maintainer documentation from consumer-facing template files; durable guidance lives in `docs/policies/`.
+- Separated maintainer documentation from consumer-facing template files; current agent obligations live in `docs/agent-policies/`.
 - Included the five maintainer workflow skills under `skills/`.
 - Added AGPLv3 licensing for the maintainer repository.
