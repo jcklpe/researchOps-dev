@@ -4,4 +4,4 @@
 [submodule "project-workflows"]
 	path = project-workflows
 	url = https://github.com/jcklpe/project-workflows.git
-	branch = project/researchops-dev
+	branch = main

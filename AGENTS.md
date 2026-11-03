@@ -14,7 +14,7 @@ Human researchers author inquiry. Agents can help articulate, challenge, retriev
 Read the project-owned [agent policy index](docs/agent-policies/policy.index.md) and load applicable adopted policies with their complete prerequisite closure. Policy status and scope determine applicability; package availability and loading order confer no adoption or precedence. Use the selected Project Workflows policy-management skills for policy work. Existing project instructions, research authorship, review holds, privacy boundaries and publication restrictions remain applicable.
 
 ## Repo-Local Skills
-This repository adopts [Project Workflows](project-workflows/README.md) as a pinned Git submodule. Read [workflow.toml](project-workflows/workflow.toml), then load `project-workflows/<skill-name>/SKILL.md` before global workflow seeds. The child branch is `project/researchops-dev`; the parent branch is separate. Project instructions and existing document conventions remain authoritative. Actual project documents stay here, outside the collection.
+This repository adopts [Project Workflows](project-workflows/README.md) as a pinned Git submodule. Read [workflow.toml](docs/workflow.toml), then load `project-workflows/<skill-name>/SKILL.md` before global workflow seeds. The collection uses an exact detached shared-source pin; project configuration and local procedures stay outside the package. Project instructions and existing document conventions remain authoritative. Actual project documents stay here, outside the collection.
 
 The complete collection provides run-project-spike, coordinate-project-contribution, commit-work, triage-project-misc, capture-for-later, draft-approval-slate, setup-project-workflows, and update-project-workflows.
 
